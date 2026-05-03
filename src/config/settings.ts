@@ -5,7 +5,7 @@ import { nameId } from "../settings.json";
 export const settings = new SettingsSection("Websocket integration", nameId);
 
 export const defaultWebsocketAddress = "127.0.0.1";
-export const defaultWebsocketPort = "9090";
+export const defaultWebsocketPort = "9091";
 
 export async function addSettings() {
     settings.addInput("websocketAddress", "Address", defaultWebsocketAddress);
